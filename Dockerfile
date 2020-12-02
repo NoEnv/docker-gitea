@@ -6,4 +6,4 @@ ENV GITEA_WORK_DIR /app/gitea
 RUN apk --no-cache add asciidoctor \
   && mkdir -p /etc/ssh
 COPY run /etc/s6/gitea/
-COPY sshd_config /etc/ssh/
+COPY sshd_config /etc/templates/
