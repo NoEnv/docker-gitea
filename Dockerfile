@@ -1,4 +1,4 @@
-FROM gitea/gitea:1.12.6
+FROM gitea/gitea:1.13.0
 
 LABEL maintainer "NoEnv"
 
