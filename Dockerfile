@@ -1,4 +1,4 @@
-FROM docker.io/gitea/gitea:1.16.0
+FROM docker.io/gitea/gitea:1.16.1
 
 LABEL maintainer "NoEnv"
 
